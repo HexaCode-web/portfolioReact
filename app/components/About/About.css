@@ -1,0 +1,59 @@
+#about {
+  color: white;
+  display: flex;
+  padding-right: 50px;
+  min-height: 700px;
+  background-color: black;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  gap: 60px;
+}
+#about content {
+  width: 50%;
+  margin-left: auto;
+}
+h2 {
+  padding-left: 50px;
+  color: rgb(137, 113, 91);
+  font-size: 4rem;
+}
+
+#about content p {
+  font-size: 1rem;
+}
+#about content img {
+  width: 300px;
+}
+.canvus {
+  background-image: url("/slide_2_0.png");
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 90%;
+  border-radius: 20px;
+  margin: auto 0;
+}
+@media (max-width: 600px) {
+  #about {
+    width: 100%;
+  }
+  section {
+    height: fit-content;
+  }
+  section::before {
+    display: none;
+  }
+  #about .canvus {
+    display: none;
+  }
+  #about content {
+    text-align: center;
+    margin: 0;
+    padding: 0 40px;
+    width: 100%;
+  }
+  #about content h2 {
+    padding-left: 0;
+  }
+}

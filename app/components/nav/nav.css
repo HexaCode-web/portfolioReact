@@ -1,0 +1,155 @@
+/* ========================================
+            NAV BAR
+======================================== */
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  transition: all 0.5s;
+  z-index: 99;
+  padding-top: 30px;
+  position: fixed;
+}
+.navbar .logo {
+  margin-left: 50px;
+}
+.navbar .logo,
+.navbar .logo img,
+.sidebar .logo,
+.sidebar .logo img {
+  width: 70px;
+}
+.navbar button {
+  display: inline;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.navbar button img {
+  width: 30px;
+}
+/* ========================================
+              SIDE BAR
+  ======================================== */
+.sidebar {
+  padding-right: 20px;
+  display: flex;
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  margin-left: auto;
+  background-color: white;
+  min-height: 100vh;
+  flex-direction: column;
+  right: 0;
+  z-index: 101;
+  gap: 30px;
+  animation: stretchFromRightS 1s ease-in both;
+  transform-origin: 100% 50%;
+}
+.sidebar .exit {
+  background-color: transparent;
+  border: none;
+}
+.sidebar .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar .logo,
+.sidebar .logo img {
+  margin-top: 5px;
+}
+.sidebar .top button {
+  width: 25px;
+  cursor: pointer;
+}
+.sidebar .top button img {
+  width: 25px;
+}
+.sidebar .bottom {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.bottom .box {
+  position: absolute;
+  top: -10px;
+  width: 120%;
+  height: 40px;
+  opacity: 1;
+  background-color: #89715b;
+  animation: scaleLeft 0.5s ease-in both;
+  transform-origin: left center;
+}
+
+.bottom .link {
+  cursor: pointer;
+  min-height: 60px;
+  z-index: 2;
+  position: relative;
+}
+
+.bottom a {
+  position: relative;
+  margin-left: 30px;
+  transition: 0.5s all;
+  z-index: 3;
+  text-decoration: none;
+}
+.bottom .link:hover a {
+  color: white;
+}
+.hidden {
+  display: none;
+}
+
+@keyframes stretchFromRightS {
+  0% {
+    transform: translateX(25vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes scaleLeft {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.fixed {
+  position: fixed;
+  padding-top: 0px;
+  background-color: rgb(17, 17, 17);
+}
+@media (max-width: 500px) {
+  .navbar .logo {
+    margin-left: 0;
+  }
+  sidebar {
+    width: 200px;
+    right: auto;
+    right: 0px;
+  }
+  .navbar .logo,
+  .navbar .logo img,
+  .sidebar .logo,
+  .sidebar .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  @keyframes stretchFromRightS {
+    0% {
+      transform: translateX(60vw);
+    }
+    100% {
+      transform: translateX(0vw);
+    }
+  }
+}

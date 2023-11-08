@@ -1,0 +1,231 @@
+header {
+  background-image: url("/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 570px;
+  padding-top: 120px;
+}
+
+.header-content {
+  padding: 50px;
+  display: flex;
+  color: white;
+}
+.header-content .name {
+  margin-bottom: 0;
+  animation: appearFromBottomT 0.5s ease-in both;
+}
+.header-content h1 {
+  margin-top: 0;
+  width: 76%;
+  font-size: 4rem;
+  animation: appearFromBottomT 0.5s ease-in both;
+}
+.header-content p {
+  font-size: 2rem;
+  animation: appearFromBottomT 0.5s ease-in both;
+}
+.header-content .contact {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  animation: appearFromBottomT 0.5s 0.3s ease-in both;
+}
+
+.header-content .socials {
+  width: 60%;
+  display: flex;
+  gap: 60px;
+  animation: appearFromBottomT 0.5s ease-in both;
+}
+.header-content .socials a {
+  transition: 0.5s;
+}
+.header-content .socials a :hover {
+  transform: scale(1.5);
+}
+.header-content .socials img {
+  margin-top: 20px;
+  height: 30px;
+  transition: 0.5s;
+}
+.photos {
+  width: 60%;
+  padding-right: 20px;
+}
+.bigphotos {
+  margin: 0 auto;
+  position: relative;
+}
+.photos img,
+.icons img {
+  margin: 0 auto;
+  position: absolute;
+}
+
+.icons {
+  left: -74%;
+  position: relative;
+  animation: appearLate 1s 1.2s ease-in-out both;
+}
+#html,
+#typescript {
+  top: 10px;
+  width: 50px;
+}
+#html {
+  right: 90px;
+  rotate: z 315deg;
+}
+#typescript {
+  right: -290px;
+  top: 20px;
+  rotate: z 50deg;
+}
+#css,
+#javascript,
+#bootstrap,
+#react {
+  width: 50px;
+}
+#css {
+  right: 100px;
+}
+#javascript {
+  right: -24px;
+}
+#bootstrap {
+  right: -148px;
+}
+#react {
+  right: -287px;
+}
+.active {
+  animation: showFromBehind 2s ease-in-out infinite both;
+}
+#pc {
+  z-index: 1;
+  width: 450px;
+  animation: appearFromTop 1s 0.5s ease-in both;
+}
+#laptop {
+  width: 400px;
+  top: 151px;
+  left: 211px;
+  z-index: 2;
+  animation: appearFromLeft 1s 0.5s ease-in both;
+}
+#tablet {
+  width: 300px;
+  left: -100px;
+  top: 97px;
+  z-index: 2;
+  animation: appearFromRight 1s 0.5s ease-in both;
+}
+#mobile {
+  width: 100px;
+  z-index: 3;
+  top: 170px;
+  left: 150px;
+  animation: appearFromBottom 1s 0.5s ease-in both;
+}
+@keyframes appearLate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showFromBehind {
+  0% {
+    transform: translate(0px, 10px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0px, -90px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, 10px);
+    opacity: 0;
+  }
+}
+@keyframes appearFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes appearFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes appearFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes appearFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes appearFromBottomT {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@media (max-width: 1000px) {
+  .photos {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding-top: 50px;
+    min-height: 100vh;
+  }
+  .header-content {
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+  .header-content .left {
+    text-align: center;
+  }
+  .left h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+  .header-content .socials {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
