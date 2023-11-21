@@ -2,9 +2,13 @@ import React from "react";
 import "./Testimonials.css";
 import Image from "next/image";
 
-const Testimonial = ({ Testimonial }) => {
+const Testimonial = ({ Testimonial, number }) => {
   return (
-    <div className="Testimonial">
+    <div
+      className="Testimonial"
+      data-aos="flip-right"
+      data-aos-duration={number * 500}
+    >
       {/* <h3 className="ProfilePic">{Testimonial.name}</h3> */}
       {Testimonial.name && <h3 className="name">{Testimonial.name}</h3>}{" "}
       {Testimonial.position && (

@@ -1,5 +1,3 @@
-.Testimonials {
-}
 .Testimonials .Testimonial {
   display: flex;
   flex-direction: column;
@@ -47,4 +45,12 @@
 .Testimonials .feedback:hover {
   padding: 20px;
   background-color: #89715b;
+}
+
+@media (max-width: 600px) {
+  .Testimonial {
+    max-width: 90%;
+    padding: 15px;
+    text-align: center;
+  }
 }

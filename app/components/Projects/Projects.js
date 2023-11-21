@@ -17,7 +17,13 @@ const poppins = Poppins({
   weight: ["300", "400", "300", "600", "300"],
 });
 import tempData from "../../tempData.json";
-
+const categories = [
+  { name: "All", Key: null },
+  { name: "Major Projects", key: "Major Project" },
+  { name: "Games", Key: "Game" },
+  { name: "Landing Pages", Key: "Landing Pages" },
+  { name: "Business websites", Key: "Business Website" },
+];
 const Projects = () => {
   const projects = tempData.projects;
   const [chosenProject, setChosenProject] = useState(null);
@@ -72,66 +78,35 @@ const Projects = () => {
       </SwiperSlide>
     );
   });
+  const renderCategories = categories.map((category, index) => {
+    return (
+      <li key={index} data-aos="fade-up" data-aos-duration={(index + 1) * 500}>
+        <h3
+          className={activeCategory === category.Key ? "selected" : ""}
+          onClick={() => {
+            setActiveCategory(category.Key);
+          }}
+        >
+          {category.name}
+        </h3>
+      </li>
+    );
+  });
   return (
     <section id="Projects" className={Zilla.className} ref={element}>
-      <h2>Our Portfolio Speaks Volumes</h2>
-      <p className={`subText ${poppins.className}`}>
+      <h2 data-aos-duration={500} data-aos="fade-up">
+        Our Portfolio Speaks Volumes
+      </h2>
+      <p
+        className={`subText ${poppins.className}`}
+        data-aos-duration={600}
+        data-aos="fade-right"
+      >
         Don't just take our word for it; explore our extensive portfolio of
         successful projects. See how we've transformed businesses across various
         industries:
       </p>
-      <ul className="categories">
-        <li>
-          <h3
-            className={activeCategory === null ? "selected" : ""}
-            onClick={() => {
-              setActiveCategory(null);
-            }}
-          >
-            All
-          </h3>
-        </li>
-        <li>
-          <h3
-            className={activeCategory === "Major Project" ? "selected" : ""}
-            onClick={() => {
-              setActiveCategory("Major Project");
-            }}
-          >
-            Major Projects
-          </h3>
-        </li>
-        <li>
-          <h3
-            className={activeCategory === "Game" ? "selected" : ""}
-            onClick={() => {
-              setActiveCategory("Game");
-            }}
-          >
-            Games
-          </h3>
-        </li>
-        <li>
-          <h3
-            className={activeCategory === "Landing Pages" ? "selected" : ""}
-            onClick={() => {
-              setActiveCategory("Landing Pages");
-            }}
-          >
-            Landing Pages
-          </h3>
-        </li>
-        <li>
-          <h3
-            className={activeCategory === "Business Website" ? "selected" : ""}
-            onClick={() => {
-              setActiveCategory("Business Website");
-            }}
-          >
-            Business websites
-          </h3>
-        </li>
-      </ul>
+      <ul className="categories">{renderCategories}</ul>
       <Swiper
         freeMode={true}
         loop={true}

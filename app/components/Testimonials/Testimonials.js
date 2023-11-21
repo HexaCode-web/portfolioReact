@@ -8,16 +8,18 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/pagination";
 const Testimonials = () => {
   const data = tempData.testimonials;
-  const renderTestimonials = data.map((testimonial) => {
+  const renderTestimonials = data.map((testimonial, index) => {
     return (
       <SwiperSlide key={testimonial.id}>
-        <Testimonial Testimonial={testimonial} />
+        <Testimonial Testimonial={testimonial} number={index + 1} />
       </SwiperSlide>
     );
   }, []);
   return (
     <section className="Testimonials" id="Testimonials">
-      <h2 className="headline">WHAT DO THEY SAY ABOUT US?</h2>
+      <h2 className="headline" data-aos-duration={500} data-aos="fade-up">
+        WHAT DO THEY SAY ABOUT US?
+      </h2>
       <Swiper
         freeMode={true}
         loop={true}

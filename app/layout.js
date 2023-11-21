@@ -16,7 +16,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/thumbnail",
+        url: "/thumbnail.jpg",
         width: 1365,
         height: 626,
       },

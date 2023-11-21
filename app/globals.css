@@ -76,10 +76,10 @@ section::before {
 }
 #WhyUs,
 #Projects {
-  padding-top: 10px;
   background-color: #141414;
 }
 section {
+  padding-top: 42px;
   height: 100vh;
 }
 .headline {

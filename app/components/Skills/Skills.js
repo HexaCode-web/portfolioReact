@@ -60,7 +60,9 @@ const Skills = () => {
 
   return (
     <section id="Skills">
-      <h2 className="headline">OUR SKILLS</h2>
+      <h2 className="headline" data-aos-duration={500} data-aos="fade-up">
+        OUR SKILLS
+      </h2>
       <div className="skill-group">
         {skillsData.map((skill, index) => (
           <SkillCard key={skill.name} {...skill} number={index + 1} />

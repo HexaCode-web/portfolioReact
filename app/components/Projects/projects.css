@@ -1,6 +1,6 @@
 #Projects {
   height: fit-content;
-  padding-left: 20px;
+
   padding-bottom: 60px;
 }
 #Projects .headline {
@@ -10,10 +10,12 @@
 }
 #Projects .subText {
   width: 50%;
+  padding-left: 50px;
   color: white;
   margin-bottom: 20px;
 }
 #Projects .categories {
+  padding-left: 50px;
   display: flex;
   gap: 20px;
 }

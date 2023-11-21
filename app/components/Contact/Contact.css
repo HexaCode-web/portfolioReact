@@ -1,24 +1,21 @@
 #contact {
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #000;
   padding: 0px;
-  padding-bottom: 40px;
 }
 #contact h2 {
-  padding-left: 0;
-  text-align: center;
   width: 100%;
   font-size: 3rem;
   margin-top: 20px;
-  animation: appearFromBottomT 1s ease-in both;
 }
 #contact p {
-  text-align: center;
+  margin-right: auto;
+  padding-left: 24px;
   width: 50%;
-  margin: auto;
+
   color: white;
   margin-bottom: 20px;
 }
@@ -35,7 +32,6 @@ form {
     "submit submit";
   color: white;
   margin-bottom: 40px;
-  animation: appearFromBottomT 1s 0.5s ease-in both;
 }
 #Message {
   grid-area: Message;
@@ -54,6 +50,7 @@ form {
 }
 #submit {
   grid-area: submit;
+  animation: appearFromBottomT 1s 1.5s ease-in both;
 }
 input,
 textarea {
@@ -124,4 +121,13 @@ input[type="submit"] {
 }
 .shrink {
   animation: hide 1s ease-in both;
+}
+@media (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
 }
