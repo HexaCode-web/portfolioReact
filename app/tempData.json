@@ -1,0 +1,182 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "buzzTalk",
+      "link": "https://buzztalk-hexacode.netlify.app/",
+      "image": "/extra/buzzTalkProject.jpeg",
+      "details": "Chat app with video and voice calling features along with sending complex files with the support of the backend of Firebase.",
+      "type": "Major Project",
+      "github": "https://github.com/HexaCode-web/BuzzTalk"
+    },
+    {
+      "id": "2",
+      "name": "Punjab Appliance Care",
+      "link": "https://buzztalk-hexacode.netlify.app/",
+      "image": "/extra/project17.png",
+      "details": "A fully functional customizable landing page with backend support and a blog system and side pages.",
+      "type": "Business Website",
+      "github": "https://github.com/HexaCode-web/punjabApplianceCare"
+    },
+    {
+      "id": "3",
+      "name": "Harptec",
+      "link": "https://harptecc.netlify.app/",
+      "image": "/extra/HarptecProject.jpeg",
+      "details": "A fully functional customizable landing page with backend support and a blog system and side pages.",
+      "type": "Business Website",
+      "github": "https://github.com/HexaCode-web/harptec"
+    },
+    {
+      "id": "4",
+      "name": "e-commerce store",
+      "link": "https://terminal-hexacode.netlify.app/",
+      "image": "/extra/TermnialProject.jpeg",
+      "details": "An e-commerce store supported with a backend and ability to track orders and add/edit/remove products along with tracking the users.",
+      "type": "Major Project",
+      "github": "https://github.com/HexaCode-web/terminal"
+    },
+    {
+      "id": "5",
+      "name": "movie streaming website",
+      "link": "https://primemoviee.netlify.app/index.html",
+      "image": "/extra/Movie.jpg",
+      "details": "A fully functional movie streaming website with login and logout ability and a large library of movies.",
+      "type": "Major Project",
+      "github": "https://github.com/HexaCode-web/PrimeMovie"
+    },
+    {
+      "id": "6",
+      "name": "Realedge Associates Business Company",
+      "link": "https://realedgeassociates.co/",
+      "image": "/extra/Project16.jpg",
+      "details": "Built from scratch and redesigned to keep up with the modern looks of today.",
+      "type": "Business Website",
+      "github": ""
+    },
+    {
+      "id": "7",
+      "name": "Quizzical!",
+      "link": "https://quizzical-hexacode.netlify.app//",
+      "image": "/extra/Project15.jpg",
+      "details": "A trivia game made with a live API that can be a ton of fun to play with friends!",
+      "type": "Game",
+      "github": "https://github.com/HexaCode-web/quizzical-"
+    },
+    {
+      "name": "blackJack game",
+      "link": "https://hexacode-web.github.io/blackJack-game/",
+      "image": "/extra/blackJack.jpg",
+      "details": "A fully functional black jack game made using HTML and CSS and JavaScript.",
+      "type": "Game",
+      "github": "https://github.com/HexaCode-web/blackJack-game"
+    },
+    {
+      "id": "8",
+      "name": "Huddle Landing Page",
+      "link": "https://hexacode-web.github.io/huddle-landing-page-with-curved-sections/",
+      "image": "/extra/huddle landing page.jpg",
+      "details": "A simple landing page using HTML and CSS and JavaScript.",
+      "type": "Landing Pages",
+      "github": "https://github.com/HexaCode-web/huddle-landing-page-with-curved-sections"
+    },
+    {
+      "id": "9",
+      "name": "Clipboard Landing Page",
+      "link": "https://hexacode-web.github.io/clipboard-landing-page/",
+      "image": "/extra/clipboard.jpg",
+      "details": "A simple yet elegant landing page using HTML and CSS and JavaScript.",
+      "type": "Landing Pages",
+      "github": "https://github.com/HexaCode-web/clipboard-landing-page"
+    },
+    {
+      "id": "10",
+      "name": "Blogr Landing Page",
+      "link": "https://hexacode-web.github.io/blogr-landing-page/",
+      "image": "/extra/blogr landing page.jpg",
+      "details": "A beautiful landing page using HTML and CSS and JavaScript.",
+      "type": "Landing Pages",
+      "github": "https://github.com/HexaCode-web/blogr-landing-page"
+    }
+  ],
+  "skillsData": [
+    { "name": "React", "value": 75 },
+    { "name": "HTML", "value": 100 },
+    { "name": "CSS", "value": 85 },
+    { "name": "JavaScript", "value": 90 },
+    { "name": "Bootstrap", "value": 75 },
+    { "name": "TypeScript", "value": 80 },
+    { "name": "UI&UX", "value": 75 },
+    { "name": "Next JS", "value": 75 }
+  ],
+  "whyUs": [
+    {
+      "name": "PROFESSIONAL AND DELICATE",
+      "description": "in this industry details are everything. we never miss a detail.",
+      "image": "/delicate.png",
+      "hoverImg": "/delicateHover.png"
+    },
+    {
+      "name": "UNIQUE DESIGNS",
+      "description": "Bring the beautifully for your websites. Just enjoy!.",
+      "image": "/design.png",
+      "hoverImg": "/designHover.png"
+    },
+    {
+      "name": "AFFORDABLE AND FLEXIBLE",
+      "description": "Although our work is perfect, our prices are not the highest",
+      "image": "/save.png",
+      "hoverImg": "/SaveHover.png"
+    },
+    {
+      "name": "24/7 SUPPORT",
+      "description": "Consulting solutions and make a plan for renovation anytime of the day",
+      "image": "/Customer.png",
+      "hoverImg": "/CustomerHover.png"
+    },
+    {
+      "name": "SEO Mastery",
+      "description": "We implement industry-best practices to boost your online visibility and drive organic traffic.",
+      "image": "/search-engine-optimisation.png",
+      "hoverImg": "/search-engine-optimisation-hover.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 2,
+      "Project": "Punjab appliance care",
+      "name": "Tejinderpal",
+      "Rating": 5,
+      "position": "CEO",
+      "description": "Marco Khairy is one of the very few freelancers on upwork those deserve 5 star ratings for their dedication, hard-work as well as 'i will do it' attitude. Any one looking for professional website building with advance approach like react js. Marco is the right person. Thanks Mr Marco for your incredible work !"
+    },
+    {
+      "id": 1,
+      "Project": "Harptec",
+      "name": "Ajay",
+      "Rating": 5,
+      "position": "CEO",
+      "description": "Working with Marco was a game-changer. he created a modern, user-friendly website that perfectly represents our brand. The process was effortless, and the results have significantly boosted our business."
+    }
+  ],
+  "services": [
+    {
+      "title": "BUILDING AND DEVELOPING",
+      "description": "We take care of building and developing your website.",
+      "image": "/build.png",
+      "hoverImg": "/buildHover.png"
+    },
+    {
+      "title": "MAINTAIN WEBSITES",
+      "description": "We work on making sure your current websites are bug-free.",
+      "image": "/maintain.png",
+      "hoverImg": "/maintainHover.png"
+    },
+    {
+      "title": "UI&UX",
+      "description": "Even if you don't have a design, do not worry. We provide designs.",
+      "image": "/uiux.png",
+      "hoverImg": "/uiuxHover.png"
+    }
+  ]
+}

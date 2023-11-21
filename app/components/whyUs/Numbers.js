@@ -1,25 +1,33 @@
-import React from "react";
-
+"use client";
+import useElementVisibility from "@/app/hooks/useElementVisibility";
+import React, { useRef } from "react";
+import CountUp from "react-countup";
 const Numbers = ({ data }) => {
+  const ref = useRef(null);
+  const isVisible = useElementVisibility(ref);
   return (
-    <div class="numbers">
-      <div class="item one">
-        <div class="num" data-val={data.Customers}>
-          0
+    <div className="numbers" ref={ref}>
+      <div className="item one">
+        <div className="num">
+          {isVisible ? (
+            <CountUp start={0} end={data.Customers} duration={4} />
+          ) : (
+            ""
+          )}
         </div>
-        <span> Customers Pleased.</span>
+        <div className="text"> Customers Pleased.</div>
       </div>
-      <div class="item two">
-        <div class="num" data-val={data.Projects}>
-          0
-        </div>
-        <span>Projects Done.</span>
+      <div className="item two">
+        {isVisible ? <CountUp start={0} end={data.Annual} duration={4} /> : ""}
+        <div className="text">Projects Done.</div>
       </div>
-      <div class="item three">
-        <div class="num" data-val={data.Annuals}>
-          0
-        </div>
-        <span>Annual Projects.</span>
+      <div className="item three">
+        {isVisible ? (
+          <CountUp start={0} end={data.Projects} duration={4} />
+        ) : (
+          ""
+        )}
+        <div className="text">Annual Projects.</div>
       </div>
     </div>
   );

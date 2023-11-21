@@ -128,7 +128,7 @@
   padding-top: 0px;
   background-color: rgb(17, 17, 17);
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navbar .logo {
     margin-left: 0;
   }

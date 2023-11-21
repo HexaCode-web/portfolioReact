@@ -1,0 +1,50 @@
+.Testimonials {
+}
+.Testimonials .Testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #89715b;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
+}
+.Testimonials .testimonialsSwiper {
+  height: 350px;
+}
+.Testimonials .Testimonial .rating-wrapper {
+  display: flex;
+}
+.Testimonials .Testimonial .name {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.Testimonials .Testimonial .position {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+.Testimonials .button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Testimonials .feedback {
+  cursor: pointer;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: 0.5s all;
+  border: 1px solid #89715b;
+  width: fit-content;
+  margin: auto;
+}
+.Testimonials .feedback:hover {
+  padding: 20px;
+  background-color: #89715b;
+}

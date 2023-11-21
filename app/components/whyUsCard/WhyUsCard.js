@@ -8,13 +8,14 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "300", "600", "300"],
 });
-const WhyUsCard = ({ name, description, image, hoverIMG }) => {
+const WhyUsCard = ({ name, description, image, hoverIMG, number }) => {
   const [hovered, setHovered] = useState(false);
 
   return (
     <div
-      class={`card ${poppins.className}`}
+      className={`card ${poppins.className}`}
       data-aos="flip-right"
+      data-aos-duration={number * 500}
       onMouseEnter={() => {
         setHovered(true);
       }}
@@ -22,7 +23,7 @@ const WhyUsCard = ({ name, description, image, hoverIMG }) => {
         setHovered(false);
       }}
     >
-      <div class={`cardBG ${hovered ? "" : "hidden"}`}></div>
+      <div className={`cardBG ${hovered ? "" : "hidden"}`}></div>
 
       <h4>{name}</h4>
       <p>{description}</p>

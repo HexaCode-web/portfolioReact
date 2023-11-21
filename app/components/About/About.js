@@ -4,6 +4,7 @@ import React from "react";
 import "./About.css";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "300", "600", "300"],
@@ -11,7 +12,7 @@ const poppins = Poppins({
 const About = () => {
   return (
     <section id="about" className={poppins.className}>
-      <div class="canvus" data-aos="fade-right"></div>
+      <div className="canvus" data-aos="fade-right"></div>
       <content data-aos="fade-left">
         <h2>HexaCode</h2>
         <p>

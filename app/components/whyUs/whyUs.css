@@ -18,19 +18,22 @@
   gap: 20px;
   align-items: center;
 }
-.numbers .num {
+.numbers span {
   color: #89715b;
   font-size: 5rem;
   font-weight: 600;
 }
-.numbers span {
+.numbers .text {
   width: 50%;
   font-size: 1.5rem;
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #WhyUs {
     min-height: 1700px;
+  }
+  #WhyUs h2 {
+    padding-left: 0;
   }
   .cards {
     min-height: 1260px;
@@ -55,6 +58,6 @@
     flex-direction: column;
   }
   .numbers .item span {
-    width: 100%;
+    width: fit-content;
   }
 }

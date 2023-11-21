@@ -51,29 +51,33 @@ export default function Navbar() {
             <a>Home</a>
             <div className={`box ${hoverPosition === 1 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>About</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#about">About</a>
             <div className={`box ${hoverPosition === 2 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>Why Us?</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#WhyUs">Why Us?</a>
             <div className={`box ${hoverPosition === 3 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>Projects</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#Projects">Projects</a>
             <div className={`box ${hoverPosition === 4 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>Services</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#Services">Services</a>
             <div className={`box ${hoverPosition === 5 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>Skills</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#Skills">Skills</a>
             <div className={`box ${hoverPosition === 6 ? "" : "hidden"}`}></div>
           </div>
-          <div className="link" data-id="link">
-            <a>Contact</a>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#Testimonials">Testimonials</a>
             <div className={`box ${hoverPosition === 7 ? "" : "hidden"}`}></div>
+          </div>
+          <div className="link" onClick={handleShowSidebar} data-id="link">
+            <a href="#contact">Contact</a>
+            <div className={`box ${hoverPosition === 8 ? "" : "hidden"}`}></div>
           </div>
         </bottom>
       </div>

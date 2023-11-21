@@ -1,0 +1,15 @@
+#Services {
+  padding-top: 20px;
+  background-color: black;
+}
+#Services .cards {
+  text-align: center;
+}
+#Services .card {
+  background-color: #1c1a1a;
+}
+@media (max-width: 600px) {
+  h2 {
+    padding: 0;
+  }
+}

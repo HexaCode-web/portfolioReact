@@ -13,15 +13,15 @@ const Header = () => {
 
   return (
     <header className={Zilla.className}>
-      <div class="header-content">
-        <div class="left">
-          <p class="name">HexaCode</p>
+      <div className="header-content">
+        <div className="left">
+          <p className="name">HexaCode</p>
           <h1>UNLEASH YOUR IMAGINATION</h1>
           <p>you think. we create.</p>
-          <a class="contact" href="#contact">
+          <a className="contact" href="#contact">
             Contact Us
           </a>
-          <ul class="socials">
+          <ul className="socials">
             <li>
               <a target="_blank" href=" https://wa.me/01227657288">
                 <Image
@@ -66,9 +66,9 @@ const Header = () => {
           </ul>
         </div>
 
-        <div class="photos">
+        <div className="photos">
           <div
-            class="bigphotos"
+            className="bigphotos"
             onMouseEnter={() => {
               setShowFloatingIcons(true);
             }}
@@ -99,7 +99,7 @@ const Header = () => {
               height="270"
             />
           </div>
-          <div class="icons">
+          <div className="icons">
             <Image
               className={`${showFloatingIcons ? "active" : ""}`}
               src="/html.png"
