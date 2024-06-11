@@ -48,6 +48,7 @@ const Projects = () => {
   }, [element]);
 
   useEffect(() => {
+    console.log(ActiveCategory,filteredProjects)
     if (activeCategory === null) {
       setFilteredProjects(projects);
     } else {
