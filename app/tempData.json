@@ -6,7 +6,7 @@
       "link": "https://buzztalk-hexacode.netlify.app/",
       "image": "/extra/buzzTalkProject.jpeg",
       "details": "Chat app with video and voice calling features along with sending complex files with the support of the backend of Firebase.",
-      "type": "Major Project",
+      "type": "Major-Project",
       "github": "https://github.com/HexaCode-web/BuzzTalk"
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://terminal-hexacode.netlify.app/",
       "image": "/extra/TermnialProject.jpeg",
       "details": "An e-commerce store supported with a backend and ability to track orders and add/edit/remove products along with tracking the users.",
-      "type": "Major Project",
+      "type": "Major-Project",
       "github": "https://github.com/HexaCode-web/terminal"
     },
     {
@@ -42,7 +42,7 @@
       "link": "https://primemoviee.netlify.app/index.html",
       "image": "/extra/Movie.jpg",
       "details": "A fully functional movie streaming website with login and logout ability and a large library of movies.",
-      "type": "Major Project",
+      "type": "Major-Project",
       "github": "https://github.com/HexaCode-web/PrimeMovie"
     },
     {
