@@ -31,7 +31,7 @@ const Projects = () => {
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [mouseCoordinates, setMouseCoordinates] = useState({ x: 0, y: 0 });
   const element = useRef(null);
-
+  console.log(ActiveCategory,filteredProjects)
   useEffect(() => {
     const handleClick = (event) => {
       setMouseCoordinates({
