@@ -19,7 +19,6 @@ const poppins = Poppins({
 import tempData from "../../tempData.json";
 const categories = [
   { name: "All", Key: null },
-  // { name: "Major Projects", key: "Major" },
   { name: "Games", Key: "Game" },
   { name: "Landing Pages", Key: "Landing Pages" },
   { name: "Business websites", Key: "Business Website" },
