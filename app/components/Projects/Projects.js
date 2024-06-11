@@ -22,7 +22,7 @@ const categories = [
   { name: "Games", Key: "Game" },
   { name: "Landing Pages", Key: "Landing Pages" },
   { name: "Business websites", Key: "Business Website" },
-  { name: "", key: "Major" }
+{ name: "Major Projects", key: "Major" }
 ];
 const Projects = () => {
   const projects = tempData.projects;
