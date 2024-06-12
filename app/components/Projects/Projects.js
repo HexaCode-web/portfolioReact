@@ -19,10 +19,10 @@ const poppins = Poppins({
 import tempData from "../../tempData.json";
 const categories = [
   { name: "All", Key: null },
-  { name: "Major Projects", key: "Major Projects" },
+  { name: "Major Projects", Key: "Major Projects" },
   { name: "Games", Key: "Game" },
   { name: "Landing Pages", Key: "Landing Pages" },
-  { name: "Business websites", Key: "Business Website" }
+  { name: "Business websites", Key: "Business Website" },
 ];
 const Projects = () => {
   const projects = tempData.projects;
@@ -39,15 +39,14 @@ const Projects = () => {
       });
     };
 
-    element.current.addEventListener("click", handleClick);
+    element.current?.addEventListener("click", handleClick);
 
     return () => {
-      element.current.removeEventListener("click", handleClick);
+      element.current?.removeEventListener("click", handleClick);
     };
   }, [element]);
 
   useEffect(() => {
-    console.log(ActiveCategory,filteredProjects)
     if (activeCategory === null) {
       setFilteredProjects(projects);
     } else {
