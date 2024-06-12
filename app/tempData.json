@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "id": "11",
+      "name": "LinkPro",
+      "link": "https://linkpro-hexacode.netlify.app",
+      "image": "/extra/project18.png",
+      "details": "LinkPro is the go-to platform for connecting with professionals, finding job opportunities, and showcasing your career achievements, made with React and firebase it ensures the best quality and bug free environment with fast paced data",
+      "type": "Major Projects",
+      "github": "https://github.com/HexaCode-web/raya-linkedin-clone"
+    },
+    {
       "id": "1",
       "name": "buzzTalk",
       "link": "https://buzztalk-hexacode.netlify.app/",
@@ -97,15 +106,6 @@
       "details": "A beautiful landing page using HTML and CSS and JavaScript.",
       "type": "Landing Pages",
       "github": "https://github.com/HexaCode-web/blogr-landing-page"
-    },
-    {
-      "id": "11",
-      "name": "LinkPro",
-      "link": "https://linkpro-hexacode.netlify.app",
-      "image": "/extra/project18",
-      "details": "LinkPro is the go-to platform for connecting with professionals, finding job opportunities, and showcasing your career achievements, made with React and firebase it ensures the best quality and bug free environment with fast paced data",
-      "type": "Major Projects",
-      "github": "https://github.com/HexaCode-web/raya-linkedin-clone"
     }
   ],
   "skillsData": [
