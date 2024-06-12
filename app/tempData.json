@@ -18,6 +18,7 @@
       "type": "Business Website",
       "github": ""
     },
+
     {
       "id": "1",
       "name": "buzzTalk",
@@ -37,9 +38,18 @@
       "github": "https://github.com/HexaCode-web/punjabApplianceCare"
     },
     {
+      "id": "14",
+      "name": "Harptec Limited Old website",
+      "link": "harptec-hexacode.netlify.app",
+      "image": "/extra/Project20.png",
+      "details": "Built from scratch and redesigned to keep up with the modern looks of today.",
+      "type": "Landing Pages",
+      "github": "https://github.com/HexaCode-web/Harptec"
+    },
+    {
       "id": "3",
-      "name": "Harptec",
-      "link": "https://harptecc.netlify.app/",
+      "name": "Harptec Limited New website",
+      "link": "https://harptec.com/",
       "image": "/extra/HarptecProject.jpeg",
       "details": "A fully functional customizable landing page with backend support and a blog system and side pages.",
       "type": "Business Website",
