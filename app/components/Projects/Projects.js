@@ -19,10 +19,10 @@ const poppins = Poppins({
 import tempData from "../../tempData.json";
 const categories = [
   { name: "All", Key: null },
-  { name: "Major Projects", key: "Major Project" },
+  { name: "Major Projects", key: "Major Projects" },
   { name: "Games", Key: "Game" },
   { name: "Landing Pages", Key: "Landing Pages" },
-  { name: "Business websites", Key: "Business Website" },
+  { name: "Business websites", Key: "Business Website" }
 ];
 const Projects = () => {
   const projects = tempData.projects;
@@ -31,7 +31,6 @@ const Projects = () => {
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [mouseCoordinates, setMouseCoordinates] = useState({ x: 0, y: 0 });
   const element = useRef(null);
-
   useEffect(() => {
     const handleClick = (event) => {
       setMouseCoordinates({
@@ -48,6 +47,7 @@ const Projects = () => {
   }, [element]);
 
   useEffect(() => {
+    console.log(ActiveCategory,filteredProjects)
     if (activeCategory === null) {
       setFilteredProjects(projects);
     } else {
