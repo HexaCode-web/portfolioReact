@@ -10,6 +10,15 @@
       "github": "https://github.com/HexaCode-web/raya-linkedin-clone"
     },
     {
+      "id": "6",
+      "name": "Realedge Associates New and dynamic Business Company",
+      "link": "https://realedgeassociates.co/",
+      "image": "/extra/Project19.jpeg",
+      "details": "Built from scratch and redesigned for a modern look, our platform features a comprehensive dashboard. Customize everything from theme colors and fonts to page sections effortlessly.",
+      "type": "Business Website",
+      "github": ""
+    },
+    {
       "id": "1",
       "name": "buzzTalk",
       "link": "https://buzztalk-hexacode.netlify.app/",
@@ -40,7 +49,7 @@
       "id": "4",
       "name": "e-commerce store",
       "link": "https://terminal-hexacode.netlify.app/",
-      "image": "/extra/TermnialProject.jpeg",
+      "image": "/extra/TermnialProject.png",
       "details": "An e-commerce store supported with a backend and ability to track orders and add/edit/remove products along with tracking the users.",
       "type": "Major Projects",
       "github": "https://github.com/HexaCode-web/terminal"
@@ -56,13 +65,14 @@
     },
     {
       "id": "6",
-      "name": "Realedge Associates Business Company",
-      "link": "https://realedgeassociates.co/",
+      "name": "Realedge Associates OLD Business Company",
+      "link": "https://realedge-hexacode.netlify.app/",
       "image": "/extra/Project16.jpg",
       "details": "Built from scratch and redesigned to keep up with the modern looks of today.",
       "type": "Business Website",
-      "github": ""
+      "github": "https://github.com/HexaCode-web/realedgeassociates"
     },
+
     {
       "id": "7",
       "name": "Quizzical!",
