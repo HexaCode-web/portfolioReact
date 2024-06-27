@@ -187,6 +187,14 @@
       "Rating": 5,
       "position": "CEO",
       "description": "Working with Marco was a game-changer. he created a modern, user-friendly website that perfectly represents our brand. The process was effortless, and the results have significantly boosted our business."
+    },
+    {
+      "id": 2,
+      "Project": "Graduation project",
+      "name": "omar mohamed",
+      "Rating": 5,
+      "position": "Student",
+      "description": "شركة محترمة و اتشرفت بمعرفتهم  و شكرا علي تعبكم و شغلكم الممتاز في انجاز المشروع التخرج في وقت قصير جدا"
     }
   ],
   "services": [

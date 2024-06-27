@@ -16,14 +16,14 @@ const Header = () => {
       <div className="header-content">
         <div className="left">
           <p className="name">HexaCode</p>
-          <h1>UNLEASH YOUR IMAGINATION</h1>
-          <p>you think. we create.</p>
+          <h1>your digital fingerprint</h1>
+          {/* <p>you think. we create.</p> */}
           <a className="contact" href="#contact">
             Contact Us
           </a>
           <ul className="socials">
             <li>
-              <a target="_blank" href=" https://wa.me/01227657288">
+              <a target="_blank" href=" https://wa.me/1555910503">
                 <Image
                   src="/whatsapp.png"
                   alt="whatsapp"
@@ -37,7 +37,7 @@ const Header = () => {
                 <Image src="/github.png" alt="github" width="30" height="30" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/marco-khairy-96bb6416a/"
@@ -49,11 +49,11 @@ const Header = () => {
                   height="30"
                 />
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 target="_blank"
-                href="https://www.facebook.com/marco.khairy.3/"
+                href="https://www.facebook.com/profile.php?id=61561496600098"
               >
                 <Image
                   src="/facebook.png"
