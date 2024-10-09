@@ -1,32 +1,34 @@
 import React, { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
 
 const Contact = () => {
   const recaptchaRef = useRef(); // Reference to reCAPTCHA
   const [isHuman, setIsHuman] = useState(false); // State to track reCAPTCHA
+  const [state, handleSubmit] = useForm("mayknryl"); // Formspree form handling
 
+  // Handle reCAPTCHA change
   const onReCAPTCHAChange = (token) => {
     if (token) {
-      setIsHuman(true);
+      setIsHuman(true); // User passed the reCAPTCHA
     } else {
-      setIsHuman(false);
+      setIsHuman(false); // User failed or didn't complete reCAPTCHA
     }
   };
 
-  const handleSubmit = (e) => {
+  // Check reCAPTCHA before form submission
+  const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    const token = recaptchaRef.current.getValue();
-
-    if (!isHuman) {
+    const token = recaptchaRef.current.getValue(); // Get reCAPTCHA token
+    if (!token || !isHuman) {
       alert("Please complete the reCAPTCHA");
       return;
     }
 
-    // Proceed with form submission after successful reCAPTCHA validation
-    const form = document.getElementById("my-form");
-    form.submit();
+    // Proceed with form submission if reCAPTCHA is validated
+    handleSubmit(e);
   };
 
   return (
@@ -44,13 +46,8 @@ const Contact = () => {
         stories.
       </p>
 
-      <form
-        action="https://formspree.io/f/mayknryl"
-        method="POST"
-        name="emailForm"
-        id="my-form"
-        onSubmit={handleSubmit}
-      >
+      {/* Form with Formspree and reCAPTCHA */}
+      <form onSubmit={handleFormSubmit}>
         <div
           className="item Form-Group"
           id="FName"
@@ -76,7 +73,8 @@ const Contact = () => {
           data-aos="fade-up"
         >
           <label htmlFor="email">Your Email:</label>
-          <input type="email" name="email" id="email" required />
+          <input id="email" type="email" name="email" required />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div
           className="item Form-Group"
@@ -94,21 +92,28 @@ const Contact = () => {
           data-aos="fade-up"
         >
           <label htmlFor="message">Your Message:</label>
-          <textarea name="message" required></textarea>
+          <textarea id="message" name="message" required />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
         </div>
-
         {/* reCAPTCHA v2 widget */}
         <ReCAPTCHA
           sitekey="6Lei7lwqAAAAAKrLZDInJS3mWK18BpPheTdxAct1"
           onChange={onReCAPTCHAChange}
           ref={recaptchaRef}
+          data-aos-duration={1700}
+          data-aos="fade-up"
           id="captcha"
         />
-
-        <span className="status"></span>
-        <input type="submit" id="submit" value="Submit" />
+        {state.succeeded && <p id="status">Thanks for your submission!</p>}
+        <button type="submit" id="submit" disabled={state.submitting}>
+          Submit
+        </button>
+        <ValidationError errors={state.errors} />
       </form>
-      <div id="status"></div>
     </section>
   );
 };

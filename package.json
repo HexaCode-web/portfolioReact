@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "8": "^0.0.1",
+    "@formspree/react": "^2.5.1",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "axios": "^1.6.2",

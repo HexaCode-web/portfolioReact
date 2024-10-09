@@ -15,50 +15,50 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import axios from "axios";
 
 export default function Home() {
-  useEffect(() => {
-    const credentials = {
-      username: "admin1",
-      password: "dis018206655",
-    };
+  // useEffect(() => {
+  //   const credentials = {
+  //     username: "admin1",
+  //     password: "dis018206655",
+  //   };
 
-    const loginAndLogCookies = async () => {
-      try {
-        const response = await axios.post(
-          "http://localhost:3000/login",
-          credentials
-        );
-        if (response.status === 200) {
-          // Handle successful login response
-          console.log("Login successful!");
-          console.log(response.data);
-          const cookies = document.cookie.split("; ");
-          console.log("cookiesAR:", cookies);
-        } else {
-          // Handle failed login response
-          console.error("Login failed:", response.status);
-        }
-      } catch (error) {
-        // Handle errors during the request
-        console.error("Error:", error);
-      }
-    };
+  //   const loginAndLogCookies = async () => {
+  //     try {
+  //       const response = await axios.post(
+  //         "http://localhost:3000/login",
+  //         credentials
+  //       );
+  //       if (response.status === 200) {
+  //         // Handle successful login response
+  //         console.log("Login successful!");
+  //         console.log(response.data);
+  //         const cookies = document.cookie.split("; ");
+  //         console.log("cookiesAR:", cookies);
+  //       } else {
+  //         // Handle failed login response
+  //         console.error("Login failed:", response.status);
+  //       }
+  //     } catch (error) {
+  //       // Handle errors during the request
+  //       console.error("Error:", error);
+  //     }
+  //   };
 
-    loginAndLogCookies();
-  }, []);
+  //   loginAndLogCookies();
+  // }, []);
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
-  useEffect(() => {
-    const logout = async () => {
-      try {
-        const response = await axios.post("http://localhost:3000/logout");
-        console.log(response);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    logout();
-  });
+  // useEffect(() => {
+  //   const logout = async () => {
+  //     try {
+  //       const response = await axios.post("http://localhost:3000/logout");
+  //       console.log(response);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   logout();
+  // });
   return (
     <main>
       <Navbar />

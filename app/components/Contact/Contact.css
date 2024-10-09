@@ -20,7 +20,7 @@
   margin-bottom: 20px;
 }
 form {
-  height: 500px;
+  height: fit-content;
   max-width: 50%;
   grid-gap: 20px;
   display: grid;
@@ -30,9 +30,16 @@ form {
     "Subject Subject"
     "Message Message"
     "captcha captcha"
+    "status status "
     "submit submit";
   color: white;
   margin-bottom: 40px;
+}
+#status {
+  color: white;
+  text-align: center;
+  margin: auto;
+  grid-area: Message;
 }
 #Message {
   grid-area: Message;
@@ -75,7 +82,7 @@ textarea {
   height: 51px;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
   background: #fff;
   color: #1b1c1e;
 }
@@ -87,7 +94,7 @@ form .item {
   display: flex;
   flex-direction: column;
 }
-input[type="submit"] {
+#submit {
   font-family: "Zilla Slab";
   margin: auto;
   width: 120px;
