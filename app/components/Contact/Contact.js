@@ -1,10 +1,38 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import "./Contact.css";
+
 const Contact = () => {
+  const recaptchaRef = useRef(); // Reference to reCAPTCHA
+  const [isHuman, setIsHuman] = useState(false); // State to track reCAPTCHA
+
+  const onReCAPTCHAChange = (token) => {
+    if (token) {
+      setIsHuman(true);
+    } else {
+      setIsHuman(false);
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const token = recaptchaRef.current.getValue();
+
+    if (!isHuman) {
+      alert("Please complete the reCAPTCHA");
+      return;
+    }
+
+    // Proceed with form submission after successful reCAPTCHA validation
+    const form = document.getElementById("my-form");
+    form.submit();
+  };
+
   return (
     <section id="contact">
       <h2 className="headline" data-aos-duration={500} data-aos="fade-up">
-        LETS WORK TOGETHER
+        LET'S WORK TOGETHER
       </h2>
       <p data-aos-duration={600} data-aos="fade-left">
         Ready to take the first step toward a remarkable online presence?
@@ -15,11 +43,13 @@ const Contact = () => {
         At HexaCode, we're not just building websites; we're building success
         stories.
       </p>
+
       <form
         action="https://formspree.io/f/mayknryl"
         method="POST"
         name="emailForm"
         id="my-form"
+        onSubmit={handleSubmit}
       >
         <div
           className="item Form-Group"
@@ -27,7 +57,7 @@ const Contact = () => {
           data-aos-duration={1000}
           data-aos="fade-right"
         >
-          <label for="Fname">Your First Name:</label>
+          <label htmlFor="Fname">Your First Name:</label>
           <input type="text" name="Fname" id="Fname" required />
         </div>
         <div
@@ -36,7 +66,7 @@ const Contact = () => {
           data-aos="fade-left"
           id="LName"
         >
-          <label for="Lname">Your Last Name:</label>
+          <label htmlFor="Lname">Your Last Name:</label>
           <input type="text" name="Lname" id="Lname" required />
         </div>
         <div
@@ -45,7 +75,7 @@ const Contact = () => {
           data-aos-duration={1200}
           data-aos="fade-up"
         >
-          <label for="email">Your Email:</label>
+          <label htmlFor="email">Your Email:</label>
           <input type="email" name="email" id="email" required />
         </div>
         <div
@@ -54,7 +84,7 @@ const Contact = () => {
           data-aos-duration={1400}
           data-aos="fade-up"
         >
-          <label for="subject">Your Subject:</label>
+          <label htmlFor="subject">Your Subject:</label>
           <input type="text" name="subject" id="subject" required />
         </div>
         <div
@@ -63,11 +93,20 @@ const Contact = () => {
           data-aos-duration={1600}
           data-aos="fade-up"
         >
-          <label for="message">Your Message:</label>
-          <textarea name="Massage"></textarea>
+          <label htmlFor="message">Your Message:</label>
+          <textarea name="message" required></textarea>
         </div>
+
+        {/* reCAPTCHA v2 widget */}
+        <ReCAPTCHA
+          sitekey="6Lei7lwqAAAAAKrLZDInJS3mWK18BpPheTdxAct1"
+          onChange={onReCAPTCHAChange}
+          ref={recaptchaRef}
+          id="captcha"
+        />
+
         <span className="status"></span>
-        <input type="submit" id="submit" />
+        <input type="submit" id="submit" value="Submit" />
       </form>
       <div id="status"></div>
     </section>

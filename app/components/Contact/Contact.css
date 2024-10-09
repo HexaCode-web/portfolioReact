@@ -20,7 +20,7 @@
   margin-bottom: 20px;
 }
 form {
-  height: 400px;
+  height: 500px;
   max-width: 50%;
   grid-gap: 20px;
   display: grid;
@@ -29,6 +29,7 @@ form {
     "Email Email"
     "Subject Subject"
     "Message Message"
+    "captcha captcha"
     "submit submit";
   color: white;
   margin-bottom: 40px;
@@ -47,6 +48,12 @@ form {
 }
 #LName {
   grid-area: LName;
+}
+#captcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: captcha;
 }
 #submit {
   grid-area: submit;
