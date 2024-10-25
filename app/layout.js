@@ -32,6 +32,8 @@ export default function RootLayout({ children }) {
         name="google-site-verification"
         content="Bskh6cuBcoosd9sbrA-eDbZ99Dd-kWhZWG4PpiVUgVc"
       />
+      <link rel="canonical" href="https://hexacode.online/" />
+
       <body className={inter.className}>{children}</body>
     </html>
   );
