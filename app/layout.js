@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  icon: "/favicon.png",
+  icon: "/favicon.ico",
   title: "Transform Your Digital Presence | Expert Web Development - HexaCode",
   description:
     "Elevate your online presence with HexaCode. Our expert web developers create stunning, SEO-optimized websites tailored to your unique needs. Explore our portfolio and start your journey to digital excellence today.",
