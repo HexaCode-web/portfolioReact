@@ -12,7 +12,11 @@
   border-radius: 15px;
 }
 .Testimonials .testimonialsSwiper {
-  height: 350px;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .Testimonials .Testimonial .rating-wrapper {
   display: flex;

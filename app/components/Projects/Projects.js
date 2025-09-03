@@ -23,6 +23,8 @@ const categories = [
   { name: "Games", Key: "Game" },
   { name: "Landing Pages", Key: "Landing Pages" },
   { name: "Business websites", Key: "Business Website" },
+  { name: "Applications", Key: "Applications" },
+  { name: "ERPs", Key: "ERPs" },
 ];
 const Projects = () => {
   const projects = tempData.projects;
@@ -93,7 +95,11 @@ const Projects = () => {
   });
   return (
     <section id="Projects" className={Zilla.className} ref={element}>
-      <h2 data-aos-duration={500} data-aos="fade-up">
+      <h2
+        data-aos-duration={500}
+        data-aos="fade-up"
+        className="Section-headline"
+      >
         Our Portfolio Speaks Volumes
       </h2>
       <p

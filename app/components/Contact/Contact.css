@@ -10,11 +10,11 @@
   width: 100%;
   font-size: 3rem;
   margin-top: 20px;
+  text-align: center;
 }
 #contact p {
-  margin-right: auto;
-  padding-left: 24px;
   width: 50%;
+  text-align: center;
 
   color: white;
   margin-bottom: 20px;

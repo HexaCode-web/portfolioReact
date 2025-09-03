@@ -19,7 +19,11 @@ const Services = () => {
   });
   return (
     <section id="Services">
-      <h2 className="headline" data-aos-duration={500} data-aos="fade-up">
+      <h2
+        className="Section-headline"
+        data-aos-duration={500}
+        data-aos="fade-up"
+      >
         WHAT DO WE DO?
       </h2>
       <div className="cards">{renderCards}</div>

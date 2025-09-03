@@ -13,13 +13,13 @@ const Zilla = Zilla_Slab({
 const WhyUs = () => {
   const data = tempData.whyUs;
   const dataNumbers = {
-    Annual: 30,
-    Customers: 3,
-    Projects: 10,
+    Annual: 60,
+    Customers: 10,
+    Projects: 30,
   };
   return (
     <section id="WhyUs" className={Zilla.className}>
-      <h2 className="headline" data-aos="fade-right">
+      <h2 className="Section-headline" data-aos="fade-right">
         WHY CHOOSE US
       </h2>
       <div className="cards">

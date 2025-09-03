@@ -1,143 +1,172 @@
 {
-  "projects": [
-    {
-      "id": "11",
-      "name": "LinkPro",
-      "link": "https://linkpro-hexacode.netlify.app",
-      "image": "/extra/project18.png",
-      "details": "LinkPro is the go-to platform for connecting with professionals, finding job opportunities, and showcasing your career achievements, made with React and firebase it ensures the best quality and bug free environment with fast paced data",
-      "type": "Major Projects",
-      "github": "https://github.com/HexaCode-web/raya-linkedin-clone"
-    },
-    {
-      "id": "12",
-      "name": "Realedge Associates New and dynamic Business Company",
-      "link": "https://realedgeassociates.co/",
-      "image": "/extra/Project19.jpeg",
-      "details": "Built from scratch and redesigned for a modern look, our platform features a comprehensive dashboard. Customize everything from theme colors and fonts to page sections effortlessly.",
-      "type": "Business Website",
-      "github": ""
-    },
-
-    {
-      "id": "1",
-      "name": "buzzTalk",
-      "link": "https://buzztalk-hexacode.netlify.app/",
-      "image": "/extra/buzzTalkProject.jpeg",
-      "details": "Chat app with video and voice calling features along with sending complex files with the support of the backend of Firebase.",
-      "type": "Major Projects",
-      "github": "https://github.com/HexaCode-web/BuzzTalk"
-    },
-    {
-      "id": "2",
-      "name": "Punjab Appliance Care",
-      "link": "https://punjabappliancecare.ca/",
-      "image": "/extra/project17.png",
-      "details": "A fully functional customizable landing page with backend support and a blog system and side pages.",
-      "type": "Business Website",
-      "github": "https://github.com/HexaCode-web/punjabApplianceCare"
-    },
-    {
-      "id": "14",
-      "name": "Harptec Limited Old website",
-      "link": "harptec-hexacode.netlify.app",
-      "image": "/extra/Project20.png",
-      "details": "Built from scratch and redesigned to keep up with the modern looks of today.",
-      "type": "Landing Pages",
-      "github": "https://github.com/HexaCode-web/Harptec"
-    },
-    {
-      "id": "3",
-      "name": "Harptec Limited New website",
-      "link": "https://harptec.com/",
-      "image": "/extra/HarptecProject.jpeg",
-      "details": "A fully functional customizable landing page with backend support and a blog system and side pages.",
-      "type": "Business Website",
-      "github": "https://github.com/HexaCode-web/harptec"
-    },
-    {
-      "id": "4",
-      "name": "e-commerce store",
-      "link": "https://terminal-hexacode.netlify.app/",
-      "image": "/extra/TermnialProject.png",
-      "details": "An e-commerce store supported with a backend and ability to track orders and add/edit/remove products along with tracking the users.",
-      "type": "Major Projects",
-      "github": "https://github.com/HexaCode-web/terminal"
-    },
-    {
-      "id": "5",
-      "name": "movie streaming website",
-      "link": "https://primemoviee.netlify.app/index.html",
-      "image": "/extra/Movie.jpg",
-      "details": "A fully functional movie streaming website with login and logout ability and a large library of movies.",
-      "type": "Major Projects",
-      "github": "https://github.com/HexaCode-web/PrimeMovie"
-    },
-    {
-      "id": "6",
-      "name": "Realedge Associates OLD Business Company",
-      "link": "https://realedge-hexacode.netlify.app/",
-      "image": "/extra/Project16.jpg",
-      "details": "Built from scratch and redesigned to keep up with the modern looks of today.",
-      "type": "Business Website",
-      "github": "https://github.com/HexaCode-web/realedgeassociates"
-    },
-
-    {
-      "id": "7",
-      "name": "Quizzical!",
-      "link": "https://quizzical-hexacode.netlify.app//",
-      "image": "/extra/Project15.jpg",
-      "details": "A trivia game made with a live API that can be a ton of fun to play with friends!",
-      "type": "Game",
-      "github": "https://github.com/HexaCode-web/quizzical-"
-    },
-    {
-      "id": "13",
-      "name": "blackJack game",
-      "link": "https://hexacode-web.github.io/blackJack-game/",
-      "image": "/extra/blackJack.jpg",
-      "details": "A fully functional black jack game made using HTML and CSS and JavaScript.",
-      "type": "Game",
-      "github": "https://github.com/HexaCode-web/blackJack-game"
-    },
-    {
-      "id": "8",
-      "name": "Huddle Landing Page",
-      "link": "https://hexacode-web.github.io/huddle-landing-page-with-curved-sections/",
-      "image": "/extra/huddle landing page.jpg",
-      "details": "A simple landing page using HTML and CSS and JavaScript.",
-      "type": "Landing Pages",
-      "github": "https://github.com/HexaCode-web/huddle-landing-page-with-curved-sections"
-    },
-    {
-      "id": "9",
-      "name": "Clipboard Landing Page",
-      "link": "https://hexacode-web.github.io/clipboard-landing-page/",
-      "image": "/extra/clipboard.jpg",
-      "details": "A simple yet elegant landing page using HTML and CSS and JavaScript.",
-      "type": "Landing Pages",
-      "github": "https://github.com/HexaCode-web/clipboard-landing-page"
-    },
-    {
-      "id": "10",
-      "name": "Blogr Landing Page",
-      "link": "https://hexacode-web.github.io/blogr-landing-page/",
-      "image": "/extra/blogr landing page.jpg",
-      "details": "A beautiful landing page using HTML and CSS and JavaScript.",
-      "type": "Landing Pages",
-      "github": "https://github.com/HexaCode-web/blogr-landing-page"
-    }
-  ],
+"projects": [
+  {
+    "id": "1",
+    "name": "buzzTalk",
+    "link": "https://buzztalk-hexacode.netlify.app/",
+    "image": "/extra/buzzTalkProject.jpeg",
+    "details": "A modern real-time chat application built with React and Firebase. It supports one-on-one and group messaging, file sharing, and advanced features like voice and video calls, making it a complete communication solution for teams and individuals.",
+    "type": "Major Projects",
+    "github": "https://github.com/HexaCode-web/BuzzTalk"
+  },
+  {
+    "id": "2",
+    "name": "Punjab Appliance Care",
+    "link": "https://punjabappliancecare.ca/",
+    "image": "/extra/project17.png",
+    "details": "A sleek and professional business website with a fully customizable landing page, blog system, and multiple side pages. Designed to improve customer engagement and present appliance care services in a user-friendly and mobile-optimized way.",
+    "type": "Business Website",
+    "github": "https://github.com/HexaCode-web/punjabApplianceCare"
+  },
+  {
+    "id": "3",
+    "name": "Harptec Limited New website",
+    "link": "https://harptec.com/",
+    "image": "/extra/HarptecProject.jpeg",
+    "details": "A complete redesign and development of Harptec’s corporate website, featuring a responsive landing page, blog system, and customizable content sections. Built with scalability and modern design principles to reflect the company’s professional image.",
+    "type": "Business Website",
+    "github": "https://github.com/HexaCode-web/harptec"
+  },
+  {
+    "id": "4",
+    "name": "e-commerce store",
+    "link": "https://terminal-hexacode.netlify.app/",
+    "image": "/extra/TermnialProject.png",
+    "details": "A fully functional e-commerce platform with a secure backend, enabling product management (add/edit/remove), order tracking, and customer account handling. Designed for seamless user experience and efficient store management.",
+    "type": "Major Projects",
+    "github": "https://github.com/HexaCode-web/terminal"
+  },
+  {
+    "id": "5",
+    "name": "movie streaming website",
+    "link": "https://primemoviee.netlify.app/index.html",
+    "image": "/extra/Movie.jpg",
+    "details": "An online streaming platform with a large movie library, login/logout functionality, and smooth video playback. Built to provide an engaging and responsive user experience similar to popular streaming services.",
+    "type": "Major Projects",
+    "github": "https://github.com/HexaCode-web/PrimeMovie"
+  },
+  {
+    "id": "6",
+    "name": "Realedge Associates OLD Business Company",
+    "link": "https://realedge-hexacode.netlify.app/",
+    "image": "/extra/Project16.jpg",
+    "details": "An earlier version of Realedge Associates’ corporate website, crafted from scratch to align with the company’s professional goals. Focused on modern UI/UX design principles and responsive layouts.",
+    "type": "Business Website",
+    "github": "https://github.com/HexaCode-web/realedgeassociates"
+  },
+  {
+    "id": "7",
+    "name": "Quizzical!",
+    "link": "https://quizzical-hexacode.netlify.app//",
+    "image": "/extra/Project15.jpg",
+    "details": "A fun trivia game powered by a live API, offering random questions across categories. Designed for multiplayer fun and replayability with a clean and interactive UI.",
+    "type": "Game",
+    "github": "https://github.com/HexaCode-web/quizzical-"
+  },
+  {
+    "id": "8",
+    "name": "Huddle Landing Page",
+    "link": "https://hexacode-web.github.io/huddle-landing-page-with-curved-sections/",
+    "image": "/extra/huddle landing page.jpg",
+    "details": "A visually appealing static landing page featuring curved sections and modern design elements, built using HTML, CSS, and JavaScript to showcase brand identity effectively.",
+    "type": "Landing Pages",
+    "github": "https://github.com/HexaCode-web/huddle-landing-page-with-curved-sections"
+  },
+  {
+    "id": "9",
+    "name": "Clipboard Landing Page",
+    "link": "https://hexacode-web.github.io/clipboard-landing-page/",
+    "image": "/extra/clipboard.jpg",
+    "details": "A minimal yet professional landing page highlighting key features of a clipboard management tool. Designed with clean UI/UX using HTML, CSS, and JavaScript.",
+    "type": "Landing Pages",
+    "github": "https://github.com/HexaCode-web/clipboard-landing-page"
+  },
+  {
+    "id": "10",
+    "name": "Hummer ERP",
+    "link": "",
+    "image": "/extra/11.png",
+    "details": "A fully integrated ERP system designed for Hummer Smart Solutions. It includes invoicing, client management, inventory, supplier management, and HR modules. (Private project – live demo and repository unavailable upon client request.)",
+    "type": "ERPs",
+    "github": ""
+  },
+  {
+    "id": "11",
+    "name": "LinkPro",
+    "link": "https://linkpro-hexacode.netlify.app",
+    "image": "/extra/project18.png",
+    "details": "A LinkedIn-inspired networking platform built with React and Firebase. Enables professionals to connect, share career achievements, and discover job opportunities with real-time data updates and a smooth interface.",
+    "type": "Major Projects",
+    "github": "https://github.com/HexaCode-web/raya-linkedin-clone"
+  },
+  {
+    "id": "12",
+    "name": "Realedge Associates New and dynamic Business Company",
+    "link": "https://realedgeassociates.co/",
+    "image": "/extra/Project19.jpeg",
+    "details": "The new and improved version of Realedge Associates’ website featuring a customizable dashboard, theme management, and dynamic sections. Built for scalability and easy maintenance while showcasing a sleek modern design.",
+    "type": "Business Website",
+    "github": ""
+  },
+  {
+    "id": "13",
+    "name": "blackJack game",
+    "link": "https://hexacode-web.github.io/blackJack-game/",
+    "image": "/extra/blackJack.jpg",
+    "details": "A browser-based Blackjack game created with HTML, CSS, and JavaScript. Features user interaction, game logic, and dynamic score calculation to simulate the casino experience.",
+    "type": "Game",
+    "github": "https://github.com/HexaCode-web/blackJack-game"
+  },
+  {
+    "id": "14",
+    "name": "Harptec Limited Old website",
+    "link": "harptec-hexacode.netlify.app",
+    "image": "/extra/Project20.png",
+    "details": "The first iteration of Harptec’s company website, designed to present services clearly while adopting modern layouts. Later redesigned for improved user experience and branding.",
+    "type": "Landing Pages",
+    "github": "https://github.com/HexaCode-web/Harptec"
+  },
+  {
+    "id": "15",
+    "name": "HIC Erp",
+    "link": "",
+    "image": "/extra/15.png",
+    "details": "An enterprise-grade ERP system for HIC, covering invoicing, client management, storage, suppliers, and HR. Designed for scalability and operational efficiency. (Private project – no public demo or repository available.)",
+    "type": "ERPs",
+    "github": ""
+  },
+  {
+    "id": "16",
+    "name": "webmax Application",
+    "link": "https://play.google.com/store/apps/details?id=com.WebMax.WebMax&hl=en",
+    "image": "/extra/16.png",
+    "details": "A mobile app built for WebMax Advertising Agency to streamline services such as digital ads, video editing, and client communication. Designed for performance and ease of use on Android devices.",
+    "type": "Applications",
+    "github": ""
+  },
+  {
+    "id": "17",
+    "name": "In One Application",
+    "link": "https://play.google.com/store/apps/details?id=com.webmax.inone",
+    "image": "/extra/17.png",
+    "details": "An educational communication platform that connects teachers and students in one place. It supports real-time interactions and collaborative features to enhance the learning experience. One of the first of its kind in Egypt.",
+    "type": "Applications",
+    "github": ""
+  }
+]
+,
   "skillsData": [
-    { "name": "React", "value": 75 },
+    { "name": "React", "value": 100 },
     { "name": "HTML", "value": 100 },
     { "name": "CSS", "value": 85 },
     { "name": "JavaScript", "value": 90 },
     { "name": "Bootstrap", "value": 75 },
     { "name": "TypeScript", "value": 80 },
     { "name": "UI&UX", "value": 75 },
-    { "name": "Next JS", "value": 75 }
+    { "name": "Next JS", "value": 75 },
+    { "name": "NodeJs", "value": 90 },
+    { "name": "React Native", "value": 90 },
+    { "name": "Firebase", "value": 100 }
   ],
   "whyUs": [
     {
@@ -173,14 +202,6 @@
   ],
   "testimonials": [
     {
-      "id": 2,
-      "Project": "Punjab appliance care",
-      "name": "Tejinderpal",
-      "Rating": 5,
-      "position": "CEO",
-      "description": "Marco Khairy is one of the very few freelancers on upwork those deserve 5 star ratings for their dedication, hard-work as well as 'i will do it' attitude. Any one looking for professional website building with advance approach like react js. Marco is the right person. Thanks Mr Marco for your incredible work !"
-    },
-    {
       "id": 1,
       "Project": "Harptec",
       "name": "Ajay",
@@ -190,12 +211,44 @@
     },
     {
       "id": 2,
+      "Project": "Punjab appliance care",
+      "name": "Tejinderpal",
+      "Rating": 5,
+      "position": "CEO",
+      "description": "Marco Khairy is one of the very few freelancers on upwork those deserve 5 star ratings for their dedication, hard-work as well as 'i will do it' attitude. Any one looking for professional website building with advance approach like react js. Marco is the right person. Thanks Mr Marco for your incredible work !"
+    },
+    {
+      "id": 3,
       "Project": "Graduation project",
       "name": "omar mohamed",
       "Rating": 5,
       "position": "Student",
       "description": "شركة محترمة و اتشرفت بمعرفتهم  و شكرا علي تعبكم و شغلكم الممتاز في انجاز المشروع التخرج في وقت قصير جدا"
-    }
+    },
+  {
+    "id": 4,
+    "Project": "ERP System",
+    "name": "emam khaled",
+    "Rating": 5,
+    "position": "CEO of hummerSmartBuildings",
+    "description": "التعامل مع ماركو كان في قمة الاحترافية. قدر يفهم متطلباتنا بسرعة وينفذ نظام ERP متكامل ساعدنا نرتب شغلنا ونوفر وقت ومجهود كبير. فعلاً تجربة مميزة."
+  },
+  {
+    "id": 5,
+    "Project": "Mobile Application",
+    "name": "muhammad abdel aziz",
+    "Rating": 5,
+    "position": "CEO of Aziz Digtial marketing",
+    "description": "ماركو ساعدنا في تطوير تطبيق موبايل بجودة عالية وتجربة استخدام سلسة جداً. التسليم كان في الميعاد والنتيجة فاقت توقعاتنا. شكراً ليه على شغله الممتاز."
+  },
+  {
+    "id": 6,
+    "Project": "ERP",
+    "name": "mahmoud fady",
+    "Rating": 5,
+    "position": "CEO of HIC",
+    "description": "بجد شغل احترافي ودعم مستمر. النظام اللي اتعمل ساعدنا نتابع كل تفاصيل الشغل بدقة وسهولة. ماركو عنده التزام ومرونة في تنفيذ أي تعديل نحتاجه."
+  }
   ],
   "services": [
     {

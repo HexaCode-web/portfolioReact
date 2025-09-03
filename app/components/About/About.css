@@ -1,16 +1,19 @@
 #about {
   color: white;
   display: flex;
-  padding-right: 50px;
   min-height: 700px;
   background-color: black;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: auto 20px;
   gap: 60px;
+  height: 700px;
+  position: relative;
+  align-items: unset;
+  justify-content: space-around;
+  flex-direction: row;
 }
 #about content {
   width: 50%;
-  margin-left: auto;
 }
 h2 {
   padding-left: 50px;

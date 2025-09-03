@@ -99,7 +99,7 @@ const Header = () => {
               height="270"
             />
           </div>
-          <div className="icons">
+          {/* <div className="icons">
             <Image
               className={`${showFloatingIcons ? "active" : ""}`}
               src="/html.png"
@@ -148,7 +148,7 @@ const Header = () => {
               width="50"
               height="50"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
