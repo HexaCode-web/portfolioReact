@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://www.hexacode.com"), // update to your domain
-  title: "HexaCode | Expert Web Development",
+  title: "HexaCode Expert Web Development",
   description:
     "Elevate your online presence with HexaCode. Our expert web developers create stunning, SEO-optimized websites tailored to your unique needs. start your journey to digital excellence today.",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "HexaCode | Expert Web Development",
+    title: "HexaCode Expert Web Development",
     description:
       "Elevate your online presence with HexaCode. Our expert web developers create stunning, SEO-optimized websites tailored to your unique needs. start your journey to digital excellence today.",
     url: "https://www.hexacode.com",
