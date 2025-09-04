@@ -85,7 +85,7 @@
     "id": "10",
     "name": "Hummer ERP",
     "link": "",
-    "image": "/extra/11.png",
+    "image": "/extra/10.png",
     "details": "A fully integrated ERP system designed for Hummer Smart Solutions. It includes invoicing, client management, inventory, supplier management, and HR modules. (Private project – live demo and repository unavailable upon client request.)",
     "type": "ERPs",
     "github": ""
